@@ -1,0 +1,4 @@
+@EndUserText.label: 'demo'
+define service Zdemo {
+  expose zoiu_prtn;
+}

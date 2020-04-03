@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZDEMO_ONPREM'
+@OData.schema.name: 'ZTST_I_PARTNER_CDS'
+define service ZDEMO_ONPREM {
+ expose ZZTST_I_PARTNER; 
+ } 

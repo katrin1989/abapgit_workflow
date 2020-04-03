@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZNW_REGIONS'
+@OData.schema.name: 'ODataWebV3.Northwind.Model'
+define service ZNW_REGIONS {
+ expose ZREGIONS; 
+ } 
