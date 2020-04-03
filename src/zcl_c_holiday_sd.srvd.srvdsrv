@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition for projection'
+define service ZCL_C_HOLIDAY_SD {
+  expose ZCAL_C_HOLIDAY as Holiday;
+  expose ZCAL_I_HOLITXT as HolidayText;
+}

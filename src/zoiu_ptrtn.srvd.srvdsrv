@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZOIU_PTRTN'
+@OData.schema.name: 'ZTST_C_PARTNER_CDS'
+define service ZOIU_PTRTN {
+  expose zoiu_prtn;
+}

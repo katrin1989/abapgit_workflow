@@ -1,0 +1,4 @@
+@EndUserText.label: 'regions'
+define service Zreg {
+  expose ZREGION;
+}

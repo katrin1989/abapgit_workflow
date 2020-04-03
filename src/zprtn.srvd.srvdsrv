@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZPRTN'
+@OData.schema.name: 'ZTST_C_PARTNER_CDS'
+define service ZPRTN {
+ expose ZZTST_C_PARTNER6F56404372; 
+ } 

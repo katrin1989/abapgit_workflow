@@ -1,0 +1,35 @@
+managed implementation in class zbp_cal_i_holiday unique; // implementation in class zbp_cal_i_holiday unique;
+
+define behavior for ZCAL_I_HOLIDAY alias HolidayRoot
+persistent table ZCAL_HOLIDAY
+lock master
+with additional save
+//authorization master ( instance )
+//etag master <field_name>
+{
+
+field ( mandatory ) month_of_holiday, day_of_holiday;
+  create;
+  update;
+  delete;
+
+  determination det_create_and_change_texts on save
+  { field HolidayDescription; }
+
+field ( features : instance ) holiday_id;
+//instance action and dynamic action control
+action  ( features: instance ) external_hol result [1] $self;
+
+
+}
+
+define behavior for ZCAL_I_HOLITXT alias HolidayText
+persistent table zcal_holitxt
+with additional save
+lock dependent ( holiday_id = holiday_id )
+{
+  update; delete;
+  field( readonly ) holiday_id;
+
+
+}

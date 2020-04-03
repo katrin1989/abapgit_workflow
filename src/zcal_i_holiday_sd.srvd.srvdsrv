@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition for holiday calendar'
+define service ZCAL_I_HOLIDAY_SD {
+  expose ZCAL_I_HOLIDAY as HolidayRoot;
+  expose ZCAL_I_HOLITXT as HolidayText;
+}

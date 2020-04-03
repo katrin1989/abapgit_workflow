@@ -1,0 +1,5 @@
+@EndUserText.label: 'JV'
+define service zoiu_def_jv {
+  expose I_Country as Country;
+  expose zoiu_prtn;
+}
