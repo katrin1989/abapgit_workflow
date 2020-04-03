@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_BO_ABSTRACT</CLSNAME>
+    <CLSNAME>ZCL_QUERY_PRTN</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Dealer Portal BO Abstract Class</DESCRIPT>
+    <DESCRIPT>Partners</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

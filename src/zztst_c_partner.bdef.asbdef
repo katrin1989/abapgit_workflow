@@ -1,0 +1,7 @@
+ implementation abstract;
+ define behavior for ZZTST_C_PARTNER
+  {
+  create;
+ update;
+ delete;
+ }
